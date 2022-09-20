@@ -5,6 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Judul</title>
+    <!-- Nav style -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        background-color:#132c33 ;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+      }
+      ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+      }
+      li {
+        padding: 10px 15px;
+        border-radius: 30px;
+      }
+      a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      li:hover {
+        background-color: white;
+        transform: translateY(5%);
+        transition: 0.8s;
+      }
+      li:hover > a {
+        color: #132c33;
+      }
+    </style>
+
   </head>
   <body>
     <header>
